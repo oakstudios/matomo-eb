@@ -1,18 +1,18 @@
 # matomo-eb
 
-[Matomo](https://matomo.org/) on AWS Elastic Beanstalk.
+[Matomo](https://matomo.org/) on [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/).
 
 This repo contains `.ebextensions` and deploy hooks to install and configure Matomo, DBIP, and Cron.
 
 ## Prerequisites
 
-1. Create a database for Matomo (recommended Aurora MySQL).
+1. Create a database for Matomo (e.g. Aurora MySQL).
 
 ## Setup
 
 1. Configure non-sensitive variables in `config/config.ini.php`
 
-2. Configure the following environment in your Elastic Beanstalk environment (required):
+2. Configure the following environment variables in your Elastic Beanstalk environment (required):
 
 | Name | Example | Description |
 | ---- | ------- | ----------- |
