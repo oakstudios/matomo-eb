@@ -2,11 +2,11 @@
 
 [Matomo](https://matomo.org/) on [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/).
 
-This repo contains `.ebextensions` and deploy hooks to install and configure Matomo, DBIP, and Cron.
+This repo contains `.ebextensions` and deploy hooks to install and configure Matomo with [DB-IP geolocation database](https://matomo.org/faq/how-to/faq_163/) and [Cron Auto-Archiving](https://matomo.org/docs/setup-auto-archiving/).
 
 ## Prerequisites
 
-1. Create a database for Matomo (e.g. Aurora MySQL).
+1. Create a database for Matomo (e.g. RDS or Aurora MySQL).
 
 ## Setup
 
